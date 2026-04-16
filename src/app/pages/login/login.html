@@ -1,0 +1,71 @@
+<div class="bg-login">
+
+  <!-- Header -->
+  <div class="d-flex justify-content-between bg-white p-2">
+    <div class="d-flex align-items-center">
+      <img src="assets/img/sigin_logo.png" class="img-fluid" width="50">
+      <h5 class="ms-2">Anmol Madhya Pradesh</h5>
+      <img src="assets/img/sigin_logo_1.png" class="img-fluid ms-2" width="50">
+    </div>
+
+    <div>
+      <button type="button" class="btn btn-sm btn-outline-warning me-2">Dashboard Login</button>
+      <button type="button" class="btn btn-sm btn-outline-warning">Admin Login</button>
+    </div>
+  </div>
+
+  <!-- Body -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Left Image -->
+      <div class="col-md-8 text-center bg-color-card">
+        <img src="assets/img/login_logo.png" class="img-fluid mt-4" style="width:70%">
+      </div>
+
+      <!-- Login Form -->
+      <div class="col-md-4">
+        <div class="card p-4 mt-3">
+
+          <h5>Login</h5>
+
+          <form>
+
+            <div class="mb-3">
+              <label>User ID</label>
+              <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+
+            <!-- FIXED BUTTON -->
+            <div class="text-center mt-3">
+              <button type="button" class="btn btn-primary" routerLink="/register">
+                Go to Registration Page
+              </button>
+            </div>
+
+            <div class="mb-3">
+              <label>Password</label>
+              <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+
+            <div class="text-end mb-3">
+              <a href="#">Forgot Password?</a>
+            </div>
+
+            <!-- FIXED SIGN IN BUTTON -->
+            <button type="button"
+              class="btn text-white w-100"
+              style="background: linear-gradient(90deg, rgba(239,66,1,1) 0%, rgba(211,71,52,1) 100%);"
+              routerLink="/register">
+              Sign In
+            </button>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>

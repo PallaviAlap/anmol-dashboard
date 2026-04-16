@@ -1,0 +1,70 @@
+<div class="container mt-4">
+
+  <div class="card shadow">
+    <div class="card-header text-white bg-danger">
+      <h5 class="mb-0">Registration of Eligible Couples</h5>
+    </div>
+
+    <div class="card-body">
+
+      <!-- Woman Details -->
+      <h6 class="section-title">Woman Details</h6>
+
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <label>Name of Woman</label>
+          <input type="text" class="form-control" [(ngModel)]="form.name">
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label>Woman Samagra ID</label>
+          <input type="text" class="form-control" [(ngModel)]="form.samagraId">
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <label>Mobile Number</label>
+          <input type="text" class="form-control" [(ngModel)]="form.mobile">
+        </div>
+      </div>
+
+      <!-- Husband Details -->
+      <h6 class="section-title">Husband Details</h6>
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label>Husband Name</label>
+          <input type="text" class="form-control" [(ngModel)]="form.husbandName">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label>Husband Samagra ID</label>
+          <input type="text" class="form-control" [(ngModel)]="form.husbandId">
+        </div>
+      </div>
+
+      <!-- Bank Details -->
+      <h6 class="section-title">Bank Details</h6>
+
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <label>Bank Name</label>
+          <input type="text" class="form-control" [(ngModel)]="form.bank">
+        </div>
+
+        <div class="col-md-6 mb-3">
+          <label>Account Number</label>
+          <input type="text" class="form-control" [(ngModel)]="form.account">
+        </div>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="text-end mt-3">
+        <button class="btn btn-danger px-4" (click)="submitForm()">
+          Submit
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+</div>
